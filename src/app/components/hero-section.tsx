@@ -13,18 +13,11 @@ export default function HeroSection() {
       <div className="absolute left-[50%] top-[calc(100%-96px)] h-[375px] w-[750px] -translate-x-1/2 rounded-[100%] border-[#B48CDE] bg-black bg-[radial-gradient(closest-side,#000_82%,#9560EB)] sm:top-[calc(100%-120px)] sm:h-[768px] sm:w-[1536px] lg:h-[1200px] lg:w-[2400px]" />
       <div className="container relative mx-auto">
         <div className="flex items-center justify-center">
-          <Link
-            href="#"
-            className="inline-flex gap-3 rounded-lg border border-white/30 px-2 py-1 text-sm"
-          >
+          <div className="inline-flex gap-3 rounded-lg border border-white/30 px-2 py-1 text-sm">
             <span className="bg-[linear-gradient(to_right,#F87AFF,#FB93D0,#FFDD99)] bg-clip-text text-transparent">
-              Version 2.0
+              Bullish on AGI
             </span>
-            <span className="flex items-center gap-1">
-              <span>Read More</span>
-              <ArrowRight className="h-4 w-4" />
-            </span>
-          </Link>
+          </div>
         </div>
         <div className="mt-8 flex justify-center">
           <div className="relative inline-flex">
@@ -34,12 +27,12 @@ export default function HeroSection() {
               into Action
             </h1>
             <motion.div
-              initial={{ top: "100px", right: "900px" }}
+              initial={{ top: '100px', right: '900px' }}
               animate={{ y: [0, -20, 0] }}
               transition={{
                 duration: 1.6,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="lg:top-50 absolute hidden sm:inline md:right-[476px] md:top-[100px] lg:right-[900px]"
             >
@@ -54,12 +47,12 @@ export default function HeroSection() {
               />
             </motion.div>
             <motion.div
-              initial={{ top: "50px", left: "1000px" }}
+              initial={{ top: '50px', left: '1000px' }}
               animate={{ y: [0, -20, 0] }}
               transition={{
                 duration: 1.6,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="lg:top-1- absolute hidden sm:inline md:left-[500px] md:top-[150px] lg:left-[1000px]"
             >
@@ -81,11 +74,9 @@ export default function HeroSection() {
           scale and succeed.
         </p>
         <div className="mt-8 flex items-center justify-center">
-          <Button className="bg-white px-5 text-zinc-900 hover:bg-white/80">
-            Try Demo
-          </Button>
+          <Button className="bg-white px-5 text-zinc-900 hover:bg-white/80">Try Demo</Button>
         </div>
       </div>
     </section>
-  );
+  )
 }

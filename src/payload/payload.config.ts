@@ -23,7 +23,7 @@ import { seed } from './endpoints/seed'
 import { Footer } from './globals/Footer'
 import { Header } from './globals/Header'
 import { Settings } from './globals/Settings'
-
+import FormBuilder from '@payloadcms/plugin-form-builder'
 const generateTitle: GenerateTitle = () => {
   return 'My Website'
 }
@@ -96,5 +96,10 @@ export default buildConfig({
       uploadsCollection: 'media',
     }),
     payloadCloud(),
+    FormBuilder({
+      fields: {
+        payment: false,
+      },
+    }),
   ],
 })

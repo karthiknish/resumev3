@@ -13,35 +13,35 @@ import {
 const faqsData: FAQsDataType[] = [
   {
     id: 1,
-    question: "What is Nova Analytics platform?",
+    question: 'What technologies do you specialize in?',
     answer:
-      "Our platform leverages cutting-edge AI technology to provide businesses with real-time insights, predictive analytics, and automated reports. It helps you make data-driven decisions with confidence and optimize your strategies for maximum impact.",
+      'I specialize in modern web technologies including React, Next.js, TypeScript, and Node.js. I also have extensive experience with analytics implementation using tools like Google Analytics and custom tracking solutions. My full-stack expertise allows me to build complete, scalable applications from frontend to backend.',
   },
   {
     id: 2,
-    question: "How does it integrate with existing data sources?",
+    question: 'How do you approach new projects?',
     answer:
-      "Our platform seamlessly integrates with various data sources, including CRMs, ERPs, and third-party APIs. This allows you to centralize all your data in one place, making it easier to analyze and draw meaningful insights.",
+      'I begin each project by thoroughly understanding the business requirements and user needs. Then, I create a detailed technical plan that outlines the architecture, technology stack, and implementation strategy. Throughout development, I maintain clear communication and ensure all decisions are data-driven.',
   },
   {
     id: 3,
-    question: "Can I customize the dashboards?",
+    question: 'Can you help with analytics implementation?',
     answer:
-      "Absolutely! Our platform offers fully customizable dashboards that you can tailor to meet your specific business needs. You can choose which metrics to display, how they’re visualized, and arrange them to suit your workflow.",
+      'Absolutely! Analytics implementation is one of my core strengths. I can help set up comprehensive tracking systems, create custom dashboards, and implement data collection strategies that provide actionable insights for your business. This includes both standard analytics tools and custom solutions.',
   },
   {
     id: 4,
-    question: "Is my data secure on this platform?",
+    question: 'Do you provide ongoing maintenance and support?',
     answer:
-      " Yes, security is our top priority. We implement industry-standard encryption and data protection measures to ensure that your data remains safe and secure. Regular security audits and updates are conducted to maintain the highest security standards.",
+      'Yes, I offer ongoing maintenance and support services to ensure your application continues to perform optimally. This includes regular updates, performance optimization, bug fixes, and implementing new features as your business needs evolve.',
   },
   {
     id: 5,
-    question: "Is Nova Analytics suitable for small businesses?",
+    question: 'How do you ensure project success?',
     answer:
-      "Absolutely! Nova Analytics is designed to be flexible and scalable, so whether you're a small business or a large enterprise, you can tailor the platform to meet your specific needs.",
+      'I ensure project success through a combination of technical expertise, clear communication, and data-driven decision making. I use agile methodologies, maintain regular check-ins, and provide detailed documentation. Performance metrics and user feedback guide continuous improvements.',
   },
-];
+]
 
 export default function FAQsSection() {
   return (
